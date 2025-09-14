@@ -13,15 +13,15 @@ REH_FOR_CV/
 │
 ├── backend/
 │   ├── python/
-│   │   ├── app.py                # :followup[Flask sunucusu, JWT, PostgreSQL, Geopy]{question="Flask ile JWT ve PostgreSQL entegrasyonu nasıl yapılır?" questionId="8789cfdc-3b4c-4990-9226-3b9afd8cdca5"}
+│   │   ├── app.py                
 │   │   ├── requirements.txt      # Python bağımlılıkları
 │   │   └── Dockerfile            # Docker konfigürasyonu
 │   │
 │   ├── csharp/
-│   │   └── KisiIslemleri.cs      # :followup[C# veri işleme modülü]{question="Bu C# modülü hangi işlevleri yerine getiriyor?" questionId="764eb2b5-ae55-4df6-aa1f-78b028492a90"}
+│   │   └── KisiIslemleri.cs      
 │   │
 │   └── cpp/
-│       └── kisi_islemleri.cpp    # :followup[C++ veri işleme modülü]{question="C++ modülü hangi avantajlar sağlıyor ve neden Python yerine tercih edilebilir?" questionId="ae2ff110-5b47-4e00-a5e5-683e8e0e008c"}
+│       └── kisi_islemleri.cpp   
 │
 ├── frontend/
 │   ├── index.html                # HTML arayüzü
@@ -31,7 +31,7 @@ REH_FOR_CV/
 ├── database/
 │   └── init.sql                  # Veritabanı başlangıç scripti
 │
-├── docker-compose.yml            # :followup[Docker Compose konfigürasyonu]{question="Bu projedeki `docker-compose.yml` dosyası nasıl yapılandırılmış ve hangi servisleri içeriyor?" questionId="d8f734a9-2320-4599-af82-007ae40b75aa"}
+├── docker-compose.yml           
 │
 └── README.md                     # Kurulum ve kullanım talimatları
 ```
@@ -85,7 +85,7 @@ dotnet add package Npgsql
 ````
 ### C++ Bağımlılıklarını Yükleme (Linux)
 ```` bash
-sudo apt-get install :followup[libpqxx-dev]{question="C++ ile PostgreSQL bağlantısı için `libpqxx` dışında hangi alternatif kütüphaneler kullanılabilir?" questionId="5493aa1f-ad86-4121-9db3-4d6bf4dd7f57"}
+sudo apt-get install
 ````
 # 🐳 Docker Komutları
 ## Projeyi Durdurma
